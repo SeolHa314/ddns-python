@@ -1,3 +1,3 @@
 # python-ddns
 
-Implamented standalone ddns in python :D
+Implemented standalone ddns in python :D
