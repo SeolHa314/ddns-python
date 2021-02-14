@@ -8,4 +8,4 @@ RUN git clone https://github.com/SeolHa314/ddns-python .
 RUN apk del git
 RUN pip install -r requirements.txt
 
-CMD uvicorn ./api/frontend/main:app
+CMD uvicorn api.frontend.main:app
