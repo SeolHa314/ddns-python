@@ -1,6 +1,6 @@
 FROM alpine:3.13.1
 
-RUN apt add --no-cache pdns pdns-backend-remote
+RUN apk add --no-cache pdns pdns-backend-remote
 COPY pdns.conf /etc/powerdns/pdns.conf
 
 COPY entrypoint.sh /
