@@ -7,5 +7,5 @@ RUN apk del git
 WORKDIR /ddns-python
 RUN pip install -r requirements.txt
 
-WORKDIR /api/backend
-CMD uvicorn main:app
+WORKDIR /ddns-python/api/backend
+CMD uvicorn main:app --reload
