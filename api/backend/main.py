@@ -7,7 +7,7 @@ from redis_interface import RedisBackend
 app = fastapi.FastAPI()
 redis = RedisBackend(os.environ["REDIS_HOST"], int(os.environ["REDIS_PORT"]), os.environ["REDIS_PASS"])
 
-SOA_FQDN = "13.113.130.62.xip.io"
+SOA_FQDN = "3.112.5.17.xip.io"
 DOMAIN_RNAME = "seolha314.gmail.com"
 
 @app.get("/")
