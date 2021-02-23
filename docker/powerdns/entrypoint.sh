@@ -1,5 +1,4 @@
-
-#!/usr/bin/env bash
+#!/bin/ash
 
 CONFIG_FILE=/etc/powerdns/pdns.conf
 
